@@ -23,39 +23,21 @@ body {
 
 .img-flex {
   display: block;
-  position: relative;
   width: 100%;
 }
 
-.soft {
+figure {
+  position: relative;
+  margin: 0;
+}
+
+figcaption {
   position: absolute;
   background-color: rgba(0, 0, 0, .5);
   color: #fff;
   border-radius: .5rem;
   max-width: 15em;
   padding: 1rem;
-  bottom: 37rem;
+  bottom: .5rem;
   left: 1rem;
-}
-
-.traditional {
-  position: absolute;
-  background-color: rgba(0, 0, 0, .5);
-  color: #fff;
-  border-radius: .5rem;
-  max-width: 15em;
-  padding: 1rem;
-  bottom: 37rem;
-  left: 36rem;
-}
-
-.bean {
-  position: absolute;
-  background-color: rgba(0, 0, 0, .5);
-  color: #fff;
-  border-radius: .5rem;
-  max-width: 15em;
-  padding: 1rem;
-  bottom: 37rem;
-  left: 71rem;
 }
