@@ -18,10 +18,33 @@ html {
 }
 
 body {
-
+  margin: 0;
 }
 
 .img-flex {
   display: block;
+  position: relative;
   width: 100%;
+}
+
+.soft {
+  position: absolute;
+  background-color: rgba(0, 0, 0, .5);
+  color: #fff;
+  border-radius: .5rem;
+  max-width: 15em;
+  padding: 1rem;
+  bottom: 47rem;
+  left: .5rem;
+}
+
+.traditional {
+  position: absolute;
+  background-color: rgba(0, 0, 0, .5);
+  color: #fff;
+  border-radius: .5rem;
+  max-width: 15em;
+  padding: 1rem;
+  bottom: 33.5rem;
+  left: .5rem;
 }
